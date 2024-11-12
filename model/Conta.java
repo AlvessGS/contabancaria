@@ -1,6 +1,6 @@
 package conta.model;
 
-public class Conta {
+public abstract class Conta {
 	
 	private int numero;
 	private int agencia;
@@ -84,6 +84,10 @@ public class Conta {
 				
 			case 2:
 				tipo = "Conta Poupança";
+				break;
+				
+			case 3:
+				tipo = "Tipo de conta inválido!";
 				break;
 		}
 		
