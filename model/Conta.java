@@ -85,10 +85,6 @@ public abstract class Conta {
 			case 2:
 				tipo = "Conta Poupança";
 				break;
-				
-			case 3:
-				tipo = "Tipo de conta inválido!";
-				break;
 		}
 		
 		System.out.println("\n\n**********************************************************************");
